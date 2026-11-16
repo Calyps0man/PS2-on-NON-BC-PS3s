@@ -6,6 +6,8 @@ A VSH plugin for PS3 custom firmware that copies an original PS2 DVD to the inte
 > **Highly experimental.** Tested on a single PS3 Slim CFW with a single game. Use it at your own risk.
 >
 > **CFW only.** It requires Cobra custom firmware (tested on Evilnat 4.93 CEX). It does **not** work on PS3HEN: enabling HEN hangs while this plugin is listed in `boot_plugins.txt`.
+>
+> It uses internal ps2_netemu emulator with all its limitations. It will not magically make your PS2 games perform at 60 fps with 4k resolution.
 
 ## What it does
 
