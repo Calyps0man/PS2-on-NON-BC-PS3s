@@ -33,16 +33,16 @@ When it's done, you'll see "matching ISO ready". Only then is it safe to launch 
 
 ## Installation
 
-1. Download `ps2_disc_cache.sprx` from the Releases page.
-2. Copy it to `/dev_hdd0/plugins/`.
-3. Copy and replace boot_plugins.txt at `/dev_hdd0/boot_plugins.txt`, or add this line into your existing file:
+1. Download `ps2_disc_cache.sprx` and `boot_plugins.txt` from the Releases page.
+2. Copy `ps2_disc_cache.sprx` plugin to `/dev_hdd0/plugins/`.
+3. Copy and replace `boot_plugins.txt` at `/dev_hdd0/`, or add this line into your existing txt file:
    ```
     /dev_hdd0/plugins/ps2_disc_cache.sprx
    ```
 4. Restart the console.
 
 > [!IMPORTANT]
-> Load it **at boot** through `boot_plugins.txt`. Loading it live from webMAN's VSH menu locks up the XMB.
+> Do not attempt to load this plugin through webMAN's VSH menu as it locks up the XMB.
 
 ## Usage notes
 
