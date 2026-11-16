@@ -75,7 +75,7 @@ The plugin writes `/dev_hdd0/tmp/ps2disc_cache.log`, including copy speed at eve
 - **No real Yes/No dialog.** The system message dialog hangs the XMB when opened from a plugin, so confirmation uses R3 instead. The XMB reads the same controller, so a press can occasionally be missed; just press again.
 - **webMAN's own popups** ("… loaded") may still appear when it mounts. You can turn those off in webMAN's setup page (mount info messages).
 - **Single-layer PS2 DVDs** were tested. Dual-layer discs are untested.
-- Only one console and one game have been tested so far.
+- Only one console and 2 games have been tested so far.
 
 ## Building from source
 
