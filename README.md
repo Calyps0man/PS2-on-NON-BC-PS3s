@@ -35,10 +35,9 @@ When it's done, you'll see "matching ISO ready". Only then is it safe to launch 
 
 1. Download `ps2_disc_cache.sprx` from the Releases page.
 2. Copy it to `/dev_hdd0/plugins/`.
-3. Add it to `/dev_hdd0/boot_plugins.txt`, keeping webMAN's line:
+3. Copy and replace boot_plugins.txt at `/dev_hdd0/boot_plugins.txt`, or add this line into your existing file:
    ```
-   /dev_hdd0/plugins/webftp_server.sprx
-   /dev_hdd0/plugins/ps2_disc_cache.sprx
+    /dev_hdd0/plugins/ps2_disc_cache.sprx
    ```
 4. Restart the console.
 
