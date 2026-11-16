@@ -3,7 +3,7 @@
 A VSH plugin for PS3 custom firmware that copies an original PS2 DVD to the internal HDD as an ISO, then mounts that ISO automatically through webMAN-MOD whenever you insert the same disc again.
 
 > [!WARNING]
-> **Highly experimental.** Tested on a single PS3 Slim CFW with a single game. Use it at your own risk.
+> **Highly experimental.** Tested on a single PS3 Slim CFW with 2 games. Use it at your own risk.
 >
 > **CFW only.** It requires Cobra custom firmware (tested on Evilnat 4.93 CEX). It does **not** work on PS3HEN: enabling HEN hangs while this plugin is listed in `boot_plugins.txt`.
 >
