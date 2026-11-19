@@ -2,7 +2,7 @@
 
 # UPDATE 19.11.2025: version 0.3
 
-- **Dual-layer DVDs are copied completely.** The ISO header on dual-layer PS2 discs only covers layer 0, so 0.2 still copied just the first layer. The plugin now reads the disc's real size from the drive and copies both layers into one ISO. Tested with Gran Turismo 4 (PAL): 5.66 GB.
+- **Dual-layer DVDs are copied completely.** The plugin now reads the disc's real size from the drive and copies both layers into one ISO. Tested with Gran Turismo 4 (PAL): 5.66 GB.
 - Existing ISOs of dual-layer games are also recognized by their file size, whether this plugin or another tool made them.
 - **PS2 CD support.** CDs are copied as a 2048-byte ISO of the data track, and Cobra mounts the ISO as a PS2 CD. CD audio tracks are not copied yet, so the few CD games that play music from audio tracks will be silent.
 - The log shows the drive capacity next to the sector count.
